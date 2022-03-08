@@ -120,14 +120,14 @@ int main()
                 bulb.Calc( cx, cy, cz, zoom );
                 UpdateScreen(screen, &bulb);
                 break;
-            case SDLK_PAGEUP:
+            case SDLK_PAGEDOWN:
                 cx -= 20/zoom;
                 cy -= 20/zoom;
                 zoom = zoom / 1.1f;
                 bulb.Calc( cx, cy, cz, zoom );
                 UpdateScreen(screen, &bulb);
                 break;
-            case SDLK_PAGEDOWN:
+            case SDLK_PAGEUP:
                 cx += 20/zoom;
                 cy += 20/zoom;
                 zoom = zoom * 1.1f;
