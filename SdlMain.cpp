@@ -110,12 +110,12 @@ int main()
                 bulb.Calc( cx, cy, cz, zoom );
                 UpdateScreen(screen, &bulb);
                 break;
-            case SDLK_F1:
+            case SDLK_DOWN:
                 cy -= 10/zoom;
                 bulb.Calc( cx, cy, cz, zoom );
                 UpdateScreen(screen, &bulb);
                 break;
-            case SDLK_F2:
+            case SDLK_UP:
                 cy += 10/zoom;
                 bulb.Calc( cx, cy, cz, zoom );
                 UpdateScreen(screen, &bulb);
