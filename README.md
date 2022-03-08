@@ -9,6 +9,7 @@
 **Сборка:** запустите Makefile:
 
 make
+
 ./bulber
 
 
