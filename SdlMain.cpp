@@ -89,11 +89,6 @@ int main()
                 	UpdateScreen(screen, &bulb);
 					SDL_SaveBMP(screen, file_name_);
                 }
-                cx = -1.5f;
-                cy = -1.0f;
-                cz = 0.5f;
-                bulb.Calc( cx, cy, cz, zoom );
-                UpdateScreen(screen, &bulb);
                 break;
 
             case SDLK_h:
@@ -107,11 +102,6 @@ int main()
                 	UpdateScreen(screen, &bulb);
 					SDL_SaveBMP(screen, filename_);
                 }
-                cx = -1.5f;
-                cy = -1.0f;
-                cz = 0.5f;
-                bulb.Calc( cx, cy, cz, zoom );
-                UpdateScreen(screen, &bulb);
                 break;
 
             case SDLK_j:
@@ -125,11 +115,6 @@ int main()
                 	UpdateScreen(screen, &bulb);
 					SDL_SaveBMP(screen, filename0);
                 }
-                cx = -1.5f;
-                cy = -1.0f;
-                cz = 0.5f;
-                bulb.Calc( cx, cy, cz, zoom );
-                UpdateScreen(screen, &bulb);
                 break;
 
             case SDLK_b:
@@ -143,11 +128,6 @@ int main()
                 	UpdateScreen(screen, &bulb);
 					SDL_SaveBMP(screen, filename1);
                 }
-                cx = -1.5f;
-                cy = -1.0f;
-                cz = 0.5f;
-                bulb.Calc( cx, cy, cz, zoom );
-                UpdateScreen(screen, &bulb);
                 break;
 
             case SDLK_n:
@@ -161,11 +141,6 @@ int main()
                 	UpdateScreen(screen, &bulb);
 					SDL_SaveBMP(screen, _filename_);
                 }
-                cx = -1.5f;
-                cy = -1.0f;
-                cz = 0.5f;
-                bulb.Calc( cx, cy, cz, zoom );
-                UpdateScreen(screen, &bulb);
                 break;
 
             case SDLK_m:
@@ -179,11 +154,6 @@ int main()
                 	UpdateScreen(screen, &bulb);
 					SDL_SaveBMP(screen, filename2);
                 }
-                cx = -1.5f;
-                cy = -1.0f;
-                cz = 0.5f;
-                bulb.Calc( cx, cy, cz, zoom );
-                UpdateScreen(screen, &bulb);
                 break;
 
             case SDLK_a:
